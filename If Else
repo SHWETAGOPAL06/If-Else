@@ -1,0 +1,21 @@
+#include <stdio.h>
+    int main() {
+    // oWrite Cint  code here
+    int mark;
+    printf("enter a mark:");
+    scanf("%d",&mark);
+    if(mark<=25){
+        printf("F");
+    }
+    else if(mark>=25 && mark<=45){
+        printf("E");
+    }
+    else if(mark>=45 && mark <= 50){
+        printf("D");
+    }
+    else if(mark>= 50 && mark<= 60){
+        printf("C");
+    }
+    else{
+        printf("close");
+    }
